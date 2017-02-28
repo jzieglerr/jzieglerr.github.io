@@ -1,1 +1,18 @@
 
+img{
+	height: 250px;
+	width: 250px;
+	padding: 25px;
+}
+
+.header{
+	text-align: center;
+}
+
+nav{
+	text-align: center;
+}
+
+body{
+	background-color: lavender;
+}
