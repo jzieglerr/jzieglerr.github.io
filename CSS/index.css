@@ -13,6 +13,32 @@ nav{
 	text-align: center;
 }
 
+a{
+	padding-right: 90px;
+	padding-left: 90px;
+}
+
 body{
 	background-color: lavender;
+}
+
+#chocolate-background{
+	background-color: tan;
+}
+
+#fruit-background{
+	background-color: lightpink;
+}
+
+#salt-background{
+	background-color: bisque;
+}
+
+#coffee-background{
+	background-color: burlywood;
+}
+
+.directions{
+	display: block;
+	width: 50%;
 }
