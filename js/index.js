@@ -35,6 +35,3 @@ $("#salt-img").on("mouseout", function(){
 });
 
 
-$("#hazelnut-truffles-img").on("click", function(){
-	
-});
