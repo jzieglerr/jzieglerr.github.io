@@ -10,7 +10,6 @@ $("#salt").on("click", function(){
 	window.open(salt.html)
 });
 
-
 $("#chocolate-img").on("mouseover", function(){
 	$("#chocolate-img").css("opacity", ".5")
 });
@@ -33,4 +32,9 @@ $("#salt-img").on("mouseover", function(){
 
 $("#salt-img").on("mouseout", function(){
 	$("#salt-img").css("opacity", "1")
+});
+
+
+$("#hazelnut-truffles-img").on("click", function(){
+	
 });
