@@ -10,59 +10,28 @@ $("#salt").on("click", function(){
 	window.open(salt.html)
 });
 
-$("#chocolate-img").on("mouseover", function(){
-	$("#chocolate-img").css("opacity", ".5")
+$(".header-links").hide();
+
+$(".hover").on("mouseover", function(){
+	$(this).css("opacity", ".5")
+	$(this).find(".header-links").show();
 });
 
-$("#chocolate-img").on("mouseout", function(){
-	$("#chocolate-img").css("opacity", "1")
+$(".hover").on("mouseout", function(){
+	$(this).css("opacity", "1")
+	$(this).find(".header-links").hide();
 });
 
-$("#fruit-img").on("mouseover", function(){
-	$("#fruit-img").css("opacity", ".5")
+
+$("hazelnut-truffles-img").on("click", function(){
+
 });
 
-$("#fruit-img").on("mouseout", function(){
-	$("#fruit-img").css("opacity", "1")
+$("oat-choc-chip-cookies-img").on("click", function(){
+	
 });
 
-$("#salt-img").on("mouseover", function(){
-	$("#salt-img").css("opacity", ".5")
-});
-
-$("#salt-img").on("mouseout", function(){
-	$("#salt-img").css("opacity", "1")
-});
-
-// $("img").on("mouseover", function(){
-// 	$("img").css("opacity", ".5")
-// });
-
-// $("img").on("mouseout", function(){
-// 	$("img").css("opacity", "1")
-// });
-
-$("#hazelnut-truffles-img").on("mouseover", function(){
-	$("#hazelnut-truffles-img").css("opacity", ".5")
-});
-
-$("#hazelnut-truffles-img").on("mouseout", function(){
-	$("#hazelnut-truffles-img").css("opacity", "1")
-});
-
-$("#oat-choc-chip-cookies-img").on("mouseover", function(){
-	$("#oat-choc-chip-cookies-img").css("opacity", ".5")
-});
-
-$("#oat-choc-chip-cookies-img").on("mouseout", function(){
-	$("#oat-choc-chip-cookies-img").css("opacity", "1")
-});
-
-$("#smores-brownies-img").on("mouseover", function(){
-	$("#smores-brownies-img").css("opacity", ".5")
-});
-
-$("#smores-brownies-img").on("mouseout", function(){
-	$("#smores-brownies-img").css("opacity", "1")
+$("smores-brownies-img").on("click", function(){
+	
 });
 
