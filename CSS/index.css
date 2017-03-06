@@ -1,7 +1,13 @@
 
 img{
-	height: 250px;
-	width: 25%;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+.image-bar{
+	margin: auto;
+	width: 80%;
 }
 
 .header{
@@ -12,7 +18,7 @@ nav{
 	text-align: center;
 }
 
-a{
+#chocolate-img{
 }
 
 body{
@@ -42,4 +48,8 @@ body{
 
 .chocolate-alternate-bg{
 	background-color: bisque;
+}
+
+.fruit-alternate-bg{
+	background-color: palevioletred;
 }
