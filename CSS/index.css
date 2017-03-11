@@ -14,11 +14,6 @@ img{
 	text-align: center;
 }
 
-nav{
-	text-align: center;
-}
-
-
 body{
 	background-color: lavender;
 }
@@ -60,7 +55,7 @@ body{
 .header-links{
 	position: absolute;
 	top: 140px;
-	left: 50px;
+	left: 40px;
 	font-size: 170%;
 }
 

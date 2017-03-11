@@ -21,17 +21,3 @@ $(".hover").on("mouseout", function(){
 	$(this).css("opacity", "1")
 	$(this).find(".header-links").hide();
 });
-
-
-$("hazelnut-truffles-img").on("click", function(){
-
-});
-
-$("oat-choc-chip-cookies-img").on("click", function(){
-	
-});
-
-$("smores-brownies-img").on("click", function(){
-	
-});
-
